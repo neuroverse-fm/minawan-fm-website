@@ -1,46 +1,7 @@
 import Layout from "../../layouts/Layout";
 import { RADIO_TITLE_PLAIN } from "../../consts";
 
-const projects: ProjectsProps[] = [
-  {
-    name: "SwarmFM Player",
-    author: "Gwa Shark",
-    description: "An application that comes with Auto-Startup, Pin On Top, and of course, the stream that powers it all.",
-    image: "/community/SwarmFM-Player.png",
-    source: "https://github.com/gwashark/swarmfm-player",
-    link: "https://github.com/gwashark/swarmfm-player/releases/",
-    linkText: "Install"
-  },
-  {
-    name: "SwarmFM Extension",
-    author: "akane",
-    description: "A[n] extension that only goes to SwarmFM.",
-    image: "/community/SwarmFM-Extension.png",
-    source: "https://github.com/tywaraxe/SwarmFM-Extension",
-    link: "https://github.com/tywaraxe/SwarmFM-Extension/releases/tag/Femboysocks",
-  },
-  {
-    name: "Nuru",
-    author: "Gwa Shark",
-    description: "A Discord Bot for Swarm FM Reminders and More Neuro Fun!",
-    image: "/community/NuruReminders.png",
-    link: "https://discord.com/oauth2/authorize?client_id=1333173911524999178"
-  },
-  {
-    name: "boop's Twitch channel",
-    author: "boop.",
-    description: "boop's Twitch channel. Usually streams development of SwarmFM along with playing SwarmFM.",
-    link: "https://twitch.tv/boop_dot",
-    linkText: "Watch"
-  },
-  {
-    name: "SwarmFM Community Twitch Channel",
-    author: "Gwa Shark, HighKey, RaneingClouds",
-    description: "The channel where SwarmFM community streams happen! Usually consists of Minecraft & dev streams.",
-    link: "https://twitch.tv/swarmfm",
-    linkText: "Watch"
-  }
-];
+const projects: ProjectsProps[] = [];
 
 export function Community() {
   return (

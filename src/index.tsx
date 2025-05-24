@@ -1,15 +1,12 @@
-import { h, render } from "preact";
+import { render } from "preact";
 import { Router, Route } from "preact-router";
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
 import { RadioProvider } from "./utils/RadioContext";
 import { RadioPlayer } from "./components/RadioPlayer";
 import "./style.css";
-import { Community } from "./pages/Community";
-import { Attributions } from "./pages/Attributions";
 import { NotFound } from "./pages/_404";
-import { Overlays } from "./pages/Overlays";
-import { OverlayInstructions } from "./pages/Overlays/instructions";
+import { Attributions } from "./pages/Attributions";
 
 function App() {
   return (
@@ -17,10 +14,7 @@ function App() {
       <Router>
         <Route path="/" component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/community" component={Community} />
-        <Route path="/attributions" component={Attributions} />
-        <Route path="/overlays" component={Overlays} />
-        <Route path="/overlays/instructions" component={OverlayInstructions} />
+        <Route path="/attribs" component={Attributions} />
         <Route default component={NotFound} />
       </Router>
       <RadioPlayer />

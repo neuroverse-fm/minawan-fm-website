@@ -15,8 +15,7 @@ export function RadioPlayer() {
 
   const toggleExpand = () => {
     if (window.innerWidth <= 768) {
-      const youtubePageUrl: string = streamUrl.replace("/embed/", "/watch?v=");
-      window.open(youtubePageUrl, "_blank");
+      window.open("https://www.youtube.com/@jep0rox/live", "_blank");
     } else {
       setIsExpanded(!isExpanded);
     }
