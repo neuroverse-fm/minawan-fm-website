@@ -13,8 +13,8 @@ const socials: socialProps[] = [
     href: "https://discord.com/channels/1063879647282069524/1314739689219031101",
     name: "Cerber Serber thread (Discord)",
     icon: "discord",
-    colours: "bg-indigo-500 hover:bg-indigo-700"
-  }
+    colours: "bg-indigo-500 hover:bg-indigo-700",
+  },
 ];
 
 export function Home() {

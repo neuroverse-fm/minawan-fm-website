@@ -19,10 +19,11 @@ export function Community() {
               <img class="w-full" src={project.image} alt={project.name} />
             )}
             <div class="px-6 py-6 text-center">
-              <a class="font-bold text-xl mb-2 text-center">
-                {project.name}
-              </a>
-              <p class="font-italic text-md mb-2 text-center"> by {project.author}</p>
+              <a class="font-bold text-xl mb-2 text-center">{project.name}</a>
+              <p class="font-italic text-md mb-2 text-center">
+                {" "}
+                by {project.author}
+              </p>
               <p class="text-base text-center">{project.description}</p>
             </div>
             <div class="px-6 pt-4 pb-2 text-center">

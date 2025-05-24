@@ -8,7 +8,7 @@ const HeaderItems: HeaderProps[] = [
   {
     page: "Attributions",
     href: "/attributions",
-  }
+  },
 ];
 
 export function Header() {

@@ -9,19 +9,19 @@ const AttribsList: AttributionProps[] = [
     list: [
       {
         name: "James",
-        link: "https://youtube.com/@jeph0rix"
-      }
-    ]
+        link: "https://youtube.com/@jeph0rix",
+      },
+    ],
   },
   {
     section: "Website infrastructure",
     list: [
       {
         name: "HighKey/KTrain",
-        link: "https://ktrain5369.me/"
-      }
-    ]
-  }
+        link: "https://ktrain5369.me/",
+      },
+    ],
+  },
 ];
 
 export function Attributions() {
