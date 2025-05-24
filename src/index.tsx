@@ -14,7 +14,7 @@ function App() {
       <Router>
         <Route path="/" component={Home} />
         <Route path="/about" component={About} />
-        <Route path="/attribs" component={Attributions} />
+        <Route path="/attributions" component={Attributions} />
         <Route default component={NotFound} />
       </Router>
       <RadioPlayer />
