@@ -3,14 +3,33 @@ import { RADIO_TITLE_PLAIN } from "../../consts";
 import { StyledLink } from "../../components/StyledLink";
 import Block from "../../components/Blocks";
 
-const AttribsList: AttributionProps[] = [];
+const AttribsList: AttributionProps[] = [
+  {
+    section: "Radio host",
+    list: [
+      {
+        name: "James",
+        link: "https://youtube.com/@jeph0rix"
+      }
+    ]
+  },
+  {
+    section: "Website infrastructure",
+    list: [
+      {
+        name: "HighKey/KTrain",
+        link: "https://ktrain5369.me/"
+      }
+    ]
+  }
+];
 
 export function Attributions() {
   return (
     <Layout title="Attributions">
       <div class="flex flex-col items-center">
         <h1 class="text-3xl font-bold text-center">Attributions</h1>
-        <p class="mt-4 text-xl text-center">
+        <p class="mt-4 mb-5 text-xl text-center">
           Attributions for {RADIO_TITLE_PLAIN}
         </p>
         {/**<p class="text-md text-center">
@@ -34,6 +53,7 @@ export function Attributions() {
             ))}
           </Block>
         ))}
+        <img src="/Minawan_gifs.gif" />
       </div>
     </Layout>
   );

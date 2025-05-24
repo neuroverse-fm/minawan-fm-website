@@ -8,6 +8,12 @@ const socials: socialProps[] = [
     name: "YouTube (Livestream)",
     icon: "youtube",
     colours: "bg-red-500 hover:bg-red-700",
+  },
+  {
+    href: "https://discord.com/channels/1063879647282069524/1314739689219031101",
+    name: "Cerber Serber thread (Discord)",
+    icon: "discord",
+    colours: "bg-indigo-500 hover:bg-indigo-700"
   }
 ];
 
@@ -15,7 +21,7 @@ export function Home() {
   return (
     <Layout title="Home">
       <div class="flex justify-center mt-4">
-        <img src="/wide-tutel.png" class="max-h-48" />
+        <img src="/minawans.png" class="max-h-48" />
       </div>
       <h1 class="text-3xl font-bold mt-4">{RADIO_TITLE}</h1>
       <p class="mt-4">The home of the Minawan's karaoke hangouts!</p>
@@ -29,6 +35,9 @@ export function Home() {
             {social.name}
           </SocialButton>
         ))}
+      </div>
+      <div class="flex justify-center mt-4">
+        <img src="minawan_summons.png" class="max-h-96" />
       </div>
     </Layout>
   );
