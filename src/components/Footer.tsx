@@ -13,14 +13,10 @@ export function Footer() {
       Full attributions available{" "}
       <StyledLink href="/attributions">here</StyledLink>.
       <br />
-      Remember, watching the stream(s), visiting this website or using the
-      community projects "legally" binds you to assist Neuro should she take
-      over the world.
-      <br />
       <br />
       Not associated with{" "}
       <StyledLink href="https://twitch.tv/cerbervt">Cerber</StyledLink>, just
-      your friendly Swarm members.
+      a couple Minawans.
     </footer>
   );
 }
